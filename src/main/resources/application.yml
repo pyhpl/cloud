@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: cloud
+server:
+  port: 8890
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+cloud:
+  secretId: AKIDiMmxtaEEAqKY6TlZGjxyoPmvqWxEi9k5
+  secretKey: JOJyPcZJsFOIwNcdP0PeeVBfvwjPt8Ax
+  region: ap-guangzhou
+  appId: 1252933270
