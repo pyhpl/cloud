@@ -2,13 +2,11 @@ package cloud.controller;
 
 import cloud.service.CloudService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
-import java.net.URI;
 
 @RestController
 @RequestMapping("/api/cloud")
@@ -19,7 +17,7 @@ public class CloudController {
 
     @PostMapping("/{bucketName}/{objectName:.+}")
     @ResponseStatus(HttpStatus.CREATED)
-    public String putObject(@PathVariable String bucketName,
+    public String postObject(@PathVariable String bucketName,
                                  @PathVariable String objectName,
                                  @RequestParam("file") MultipartFile file) throws IOException {
         return cloudService.createObject(bucketName, objectName, file);
