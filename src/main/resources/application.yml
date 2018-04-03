@@ -2,7 +2,7 @@ spring:
   application:
     name: cloud
 server:
-  port: 8890
+  port: 8891
 eureka:
   client:
     service-url:
