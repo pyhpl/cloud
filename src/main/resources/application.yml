@@ -1,6 +1,14 @@
 spring:
   application:
     name: cloud
+  datasource:
+    url: jdbc:postgresql://localhost:5432/look_resource
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
 server:
   port: 8891
 eureka:
