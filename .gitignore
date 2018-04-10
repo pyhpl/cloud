@@ -3,6 +3,7 @@
 .idea/
 gradle/
 gradlew
+build/
 gradlew.bat
 out/
 cloud.iml
