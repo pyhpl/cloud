@@ -20,7 +20,7 @@ bootJar { // 生成可执行jar。
     launchScript ()
 }
 
-archivesBaseName = 'core' // jar包名称。
+archivesBaseName = 'cloud' // jar包名称。
 
 sourceCompatibility = 1.8
 
