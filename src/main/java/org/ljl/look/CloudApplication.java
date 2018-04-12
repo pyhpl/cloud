@@ -8,9 +8,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement
 //@EnableEurekaClient
-@MapperScan("cloud.mapper")
-public class Application {
+@MapperScan("org.ljl.look.cloud.mapper")
+public class CloudApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(CloudApplication.class, args);
     }
 }
