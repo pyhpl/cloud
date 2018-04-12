@@ -1,6 +1,6 @@
-package cloud.mapper;
+package org.ljl.look.cloud.mapper;
 
-import cloud.entity.Image;
+import org.ljl.look.cloud.entity.Image;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 

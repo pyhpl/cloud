@@ -1,4 +1,4 @@
-package cloud;
+package org.ljl.look;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

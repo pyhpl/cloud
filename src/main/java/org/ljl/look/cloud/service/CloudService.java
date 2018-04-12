@@ -1,4 +1,4 @@
-package cloud.service;
+package org.ljl.look.cloud.service;
 
 import com.qcloud.cos.COSClient;
 import com.qcloud.cos.model.ObjectMetadata;

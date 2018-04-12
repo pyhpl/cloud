@@ -1,4 +1,4 @@
-package cloud.configuration;
+package org.ljl.look.cloud.configuration;
 
 import com.qcloud.cos.COSClient;
 import com.qcloud.cos.ClientConfig;
